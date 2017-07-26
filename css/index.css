@@ -1,0 +1,143 @@
+
+/*导航条*/
+.navbar{
+    background-color: #88C5E1;
+    padding: 12px 0;
+    border-bottom: 5px solid #54abd4;
+}
+
+/*图片固定高度*/
+.brand{
+    height: 42px;
+    margin-top: 10px;
+}
+@media (min-width: 768px) {
+    .navbar-nav > li >  a{
+        font-size: 18px;
+        padding-bottom: 12px;
+    }
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: #fff;
+        border-bottom: 3px solid #fff;
+    }
+    }
+/*表单*/
+#form1{
+    margin-top: 15px;
+}
+.input-group{
+    height: 40px;
+    background-color: #fff;
+}
+.form-control{
+    height: 100%;
+}
+#search{
+    border: none;
+}
+/*表单按钮边框设置无*/
+.input-group-btn,.btn{
+    border: none;
+}
+/*导航链接*/
+.navbar-default .navbar-nav > li > a{
+    color: #fff;
+}
+.navbar-right{
+    margin-top: 10px;
+}
+/*屏幕宽度小于768px，面包按钮设置*/
+@media (max-width: 768px) {
+    .navbar-nav > li > a{
+        font-size: 12px;
+    }
+    #myNavbar{
+        background-color: #fff;
+        position: absolute;
+        width: 200px;
+        right: 0;
+    }
+.navbar-default .navbar-nav > li{
+    border-left: 3px solid #999;
+    margin: 4px 0;
+    transition: .3s;
+}
+.navbar-default .navbar-nav > li:hover{
+    border-left: 16px solid #88c5e1;
+}
+#myNavbar .nav{
+    width: 100%;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #88c5e1;
+    text-decoration: underline;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #999;
+}
+}
+/*登录内容*/
+.wrapper{
+    background:url("../img/homeImg.png") repeat-x;
+    height: 992px;
+    padding: 60px 200px 0 100px;
+    margin-top: -30px;
+}
+.wrapper-logo{
+    text-align: center;
+}
+/*登录表单*/
+.form-group{
+    height: 40px;
+}
+/*页签*/
+.nav-tabs{
+    border: none;
+}
+.nav{
+    list-style: none;
+}
+.nav-tabs a{
+    color: #fff;
+    font-size: 16px;
+}
+.login .nav-tabs>li.active>a:hover {
+    border-bottom: 2px solid #fff;
+}
+.login .nav-tabs > li > a{
+    border: none !important;
+    background: transparent;
+}
+.nav > li > a:focus, .nav-tabs > li > a:hover{
+    background:transparent;
+    /*border-bottom: 2px solid #fff;*/
+}
+.nav-tabs>li.active>a{
+    border: none;
+}
+.login .nav-tabs li.active a {
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+}
+
+.checkbox{
+    margin-top: 30px;
+    color: #fff;
+}
+.forgot{
+    color: #fff;
+}
+/*登录按钮和注册按钮*/
+.content .btn{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #88C5E1;
+    border-bottom: 5px solid #54abd4;
+    color: #fff;
+    font-size: 20px;
+}
+.content .btn:hover{
+    border-bottom: hidden;
+}

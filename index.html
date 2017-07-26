@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!--导航条-->
+    <div class="navbar navbar-default">
+        <div class="container">
+            <!--网站LOGO-->
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-2 col-xs-2">
+                    <img src="img/Brand.png" alt="" class="brand visible-lg visible-md">
+                    <img src="img/Brand-M.png" alt="" class="brand visible-sm">
+                    <img src="img/Brand-S.png" alt="" class="brand visible-xs">
+                </div>
+                <!--搜索框-->
+                <div class="col-lg-5 col-md-4 col-sm-4 col-xs-8">
+                    <form action="" id="form1">
+                        <div class="form-group">
+                            <lable class="sr-only sr-only-focusable" for="search">搜索</lable>
+                            <!--输入组控件：添加搜索框-->
+                            <div class="input-group">
+                                <input type="text" name="search" class="form-control" id="search" placeholder="查找课程...">
+                                <!--输入组控件：添加按钮-->
+                                <div class="input-group-btn">
+                                    <button type="button" class="btn btn-default">
+                                        <span class="glyphicon glyphicon-search"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!--导航链接-->
+                <div class="col-lg-4 col-md-5 col-sm-6 col-xs-2 navbar-right">
+                    <div class="navbar-header">
+                        <button type="button"
+                                class="navbar-toggle collapsed"
+                                data-toggle="collapse"
+                                data-target="#myNavbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav pull-right">
+                            <li><a href="">首页</a></li>
+                            <li><a href="">课程</a></li>
+                            <li><a href="">公告</a></li>
+                            <li><a href="">登录</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--内容区-->
+    <div class="content">
+        <!--登录内容-->
+        <div class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="wrapper-logo col-lg-8 col-md-6 col-sm-4 visible-lg visible-md visible-sm">
+                        <img src="img/MiLogo.png" alt=""><br>
+                        <img src="img/miTitle.png" alt="">
+                    </div>
+                    <div class="login col-lg-4 col-md-6 col-sm-8 col-xs-12 pull-right">
+                        <!--登录页签-->
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#login" data-toggle="tab">登录米课</a></li>
+                            <li><a href="#register" data-toggle="tab">注册·加入米课</a></li>
+                        </ul>
+                        <!--切换内容-->
+                        <div class="tab-content">
+                            <!--登录-->
+                            <form action="" class="tab-pane active" id="login">
+                                <div class="tab-info">
+                                    <div class="form-group">
+                                        <label class="sr-only" for="login-email">邮箱</label>
+                                        <input type="email" class="form-control" placeholder="邮箱" id="login-email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="sr-only" for="login-psd">密码</label>
+                                        <input type="password" class="form-control" placeholder="密码" id="login-psd">
+                                    </div>
+                                    <div class="checkbox">
+                                        <lable>
+                                            <input type="checkbox" checked="checked">记住我
+                                        </lable>
+                                        <a href="" class="forgot pull-right">忘记密码</a>
+                                    </div>
+                                    <button type="button" class="btn btn-default">登录</button>
+                                </div>
+                            </form>
+                           <!-- 注册-->
+                            <form action="" class="tab-pane" id="register">
+                                <div class="tab-reg">
+                                    <div class="form-group">
+                                        <label class="sr-only" for="login-email">邮箱</label>
+                                        <input type="email" class="form-control" placeholder="邮箱" id="register-email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="sr-only" for="login-psd">密码</label>
+                                        <input type="password" class="form-control" placeholder="密码" id="register-psd">
+                                    </div>
+                                    <button type="button" class="btn btn-default">注册</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+</body>
+</html>
